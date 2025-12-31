@@ -1,18 +1,16 @@
 # Python
-venv/
 __pycache__/
 *.pyc
-*.pyo
+venv/
+.env
 
-# Node / Next.js
+# Node
 node_modules/
 .next/
 out/
 
-# Environment
-.env
-.env.local
-
 # OS
 .DS_Store
-Thumbs.db
+
+# User data (DO NOT COMMIT)
+data/user_memory.json
