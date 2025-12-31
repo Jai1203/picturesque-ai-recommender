@@ -1,6 +1,6 @@
 # 🎬 Picturesque – AI Movie Recommendation & Wrapped Experience
 
-Picturesque is a full-stack AI-powered movie recommendation system that analyzes user taste and generates a personalized **“Wrapped” experience** — similar to Spotify Wrapped — with shareable and downloadable insights.
+Picturesque is a full-stack AI-powered movie recommendation system that analyzes user taste and generates a personalized **“Wrapped” experience** — inspired by Spotify Wrapped — with shareable and downloadable insights.
 
 This project focuses on **recommendation logic, data-driven personalization, and product-style UX**, built end-to-end by a single developer.
 
@@ -8,9 +8,9 @@ This project focuses on **recommendation logic, data-driven personalization, and
 
 ## 🚀 Features
 
-- 🎥 AI-based movie recommendations using cosine similarity
+- 🎥 AI-based movie recommendations using **cosine similarity**
 - 🧠 Taste profiling from user-selected movies
-- 🎁 Personalized “Picturesque Wrapped” dashboard
+- 🎁 Personalized **Picturesque Wrapped** dashboard
 - 🔗 Shareable Wrapped links (`/wrapped/[id]`)
 - 📸 Download Wrapped as an image
 - 📊 Genre, actor, mood & industry breakdowns
@@ -24,12 +24,13 @@ This project focuses on **recommendation logic, data-driven personalization, and
 - **Next.js (App Router)**
 - **TypeScript**
 - **Tailwind CSS**
-- Client-side data fetching & visualization
+- Client-side data fetching & visualizations (Recharts)
+- Wrapped image export using `html-to-image`
 
 ### Backend
 - **FastAPI (Python)**
 - **Scikit-learn**
-- Lightweight JSON-based persistence (no database)
+- Lightweight **JSON-based persistence** (no database)
 
 > ⚠️ Note: The backend exists at the project root and is not inside a separate `backend/` folder.
 
@@ -37,18 +38,17 @@ This project focuses on **recommendation logic, data-driven personalization, and
 
 ## 🔄 Data Flow
 
-User selects movies
-↓
-Frontend (Next.js)
-↓
-FastAPI Recommendation API
-↓
-ML Recommendation Engine
-↓
-TMDB Metadata Enrichment
-↓
-Wrapped Dashboard + Shareable Link
-
+User selects movies  
+↓  
+Frontend (Next.js)  
+↓  
+FastAPI Recommendation API  
+↓  
+ML Recommendation Engine  
+↓  
+TMDB Metadata Enrichment  
+↓  
+Wrapped Dashboard + Shareable Link  
 
 ---
 
@@ -58,7 +58,7 @@ Wrapped Dashboard + Shareable Link
 - A **user taste vector** is computed as the mean of liked movie vectors
 - Similarity is calculated using **cosine similarity**
 - Industry-based weighting (Hollywood / Bollywood preference)
-- Diversity-aware sampling avoids repetitive recommendations
+- **Diversity-aware sampling** avoids repetitive recommendations
 
 ---
 
@@ -76,7 +76,6 @@ Each **Picturesque Wrapped** includes:
 
 Example:
 
-
 /wrapped/c17117b4-ba23-4b4c-9f54-f1657ba9f7f2
 
 
@@ -86,25 +85,24 @@ Example:
 
 ### 1️⃣ Backend (FastAPI)
 
-The backend runs from the **project root**.
+Activate virtual environment:
 
-#### Activate virtual environment (Windows PowerShell):
-```powershell
-C:/Users/amitt/OneDrive/Desktop/Picturesque/venv/Scripts/Activate.ps1
+```bash
+venv/Scripts/Activate.ps1
 
-Start FastAPI server:
+Start the FastAPI server:
+
 uvicorn main:app --reload
-
 
 Backend runs at:
 
 http://127.0.0.1:8000
 
 2️⃣ Frontend (Next.js)
+
 cd frontend
 npm install
 npm run dev
-
 
 Frontend runs at:
 
@@ -119,13 +117,13 @@ Storage	JSON-based persistence
 APIs	TMDB (movie metadata)
 🎯 Project Goals
 
-Demonstrate real-world recommendation system logic
+    Demonstrate real-world recommendation system logic
 
-Showcase full-stack integration
+    Showcase full-stack integration
 
-Build a product-style user experience
+    Build a product-style user experience
 
-Create something shareable and explainable in interviews
+    Create something shareable and explainable in interviews
 
 👨‍💻 Author
 
@@ -136,9 +134,12 @@ Interested in Full-Stack Development, Machine Learning & Product Engineering
 
 ---
 
-## ✅ What to Do Next (Final Steps)
+# ✅ GIT COMMANDS (COPY–PASTE)
+
+Run these **from your project root**:
 
 ```bash
+git status
 git add README.md
-git commit -m "Update README to match local project setup"
+git commit -m "Update README to reflect project architecture and features"
 git push
