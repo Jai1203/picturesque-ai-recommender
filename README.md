@@ -7,11 +7,10 @@ This project focuses on **recommendation logic, data-driven personalization, and
 
 https://github.com/user-attachments/assets/e2a725bd-b3d8-4bd8-95be-91c4aa68a3ce
 
-
-<img width="1916" height="931" alt="Screenshot 2025-12-31 224251" src="https://github.com/user-attachments/assets/f151f78f-e11f-4656-b475-503c3b882631" />
-<img width="1919" height="762" alt="Screenshot 2025-12-31 224234" src="https://github.com/user-attachments/assets/d44c796d-41e4-4bb9-80eb-79f1d7ec7604" />
-<img width="1919" height="945" alt="Screenshot 2025-12-31 224224" src="https://github.com/user-attachments/assets/581fbb87-da9d-45e5-bb4b-5c0ba2356f8a" />
 <img width="1919" height="938" alt="Screenshot 2025-12-31 224147" src="https://github.com/user-attachments/assets/dc375284-8d2e-4004-8f0f-88c7fd201d80" />
+<img width="1919" height="945" alt="Screenshot 2025-12-31 224224" src="https://github.com/user-attachments/assets/581fbb87-da9d-45e5-bb4b-5c0ba2356f8a" />
+<img width="1919" height="762" alt="Screenshot 2025-12-31 224234" src="https://github.com/user-attachments/assets/d44c796d-41e4-4bb9-80eb-79f1d7ec7604" />
+<img width="1916" height="931" alt="Screenshot 2025-12-31 224251" src="https://github.com/user-attachments/assets/f151f78f-e11f-4656-b475-503c3b882631" />
 
 <img width="2432" height="2624" alt="picturesque-wrapped(42)" src="https://github.com/user-attachments/assets/a8a438d9-748c-428c-a544-70a03bee6994" />
 <img width="2432" height="2624" alt="picturesque-wrapped(41)" src="https://github.com/user-attachments/assets/d1cbe1f2-5eec-4f3f-bcd1-bbb5b2150c7a" />
