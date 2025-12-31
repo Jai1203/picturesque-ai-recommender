@@ -1,3 +1,10 @@
+# 🎬 Picturesque – AI Movie Recommendation & Wrapped Experience
+
+Picturesque is a full-stack AI-powered movie recommendation system that analyzes user taste and generates a personalized **“Wrapped” experience** — inspired by Spotify Wrapped — with shareable and downloadable insights.
+
+This project focuses on **recommendation logic, data-driven personalization, and product-style UX**, built end-to-end by a single developer.
+
+
 <img width="1919" height="937" alt="Screenshot 2025-12-31 222509" src="https://github.com/user-attachments/assets/dcd160ba-127f-4671-88d6-74d3b1e68768" />
 <img width="2432" height="2624" alt="picturesque-wrapped(42)" src="https://github.com/user-attachments/assets/a8a438d9-748c-428c-a544-70a03bee6994" />
 <img width="2432" height="2624" alt="picturesque-wrapped(41)" src="https://github.com/user-attachments/assets/d1cbe1f2-5eec-4f3f-bcd1-bbb5b2150c7a" />
@@ -6,11 +13,7 @@
 <img width="2432" height="2624" alt="picturesque-wrapped(38)" src="https://github.com/user-attachments/assets/1431585f-3395-4d71-b357-87563b56c69e" />
 <img width="2432" height="2624" alt="picturesque-wrapped(37)" src="https://github.com/user-attachments/assets/384fd744-9bd5-466e-9f34-ae082da2ff82" />
 <img width="2432" height="2624" alt="picturesque-wrapped(36)" src="https://github.com/user-attachments/assets/f49a4d20-1deb-484d-b789-414d98768bc1" />
-# 🎬 Picturesque – AI Movie Recommendation & Wrapped Experience
 
-Picturesque is a full-stack AI-powered movie recommendation system that analyzes user taste and generates a personalized **“Wrapped” experience** — inspired by Spotify Wrapped — with shareable and downloadable insights.
-
-This project focuses on **recommendation logic, data-driven personalization, and product-style UX**, built end-to-end by a single developer.
 
 ---
 
